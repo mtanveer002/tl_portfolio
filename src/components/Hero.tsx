@@ -1,4 +1,4 @@
-import { Github, Linkedin, Mail, MapPin, ChevronDown } from 'lucide-react';
+import { Github, Linkedin, Mail, MapPin, ChevronDown, Phone } from 'lucide-react';
 
 const Hero = () => {
   const scrollToAbout = () => {
@@ -37,6 +37,11 @@ const Hero = () => {
               <Mail size={20} />
               <span>mtanveerraj002@gmail.com</span>
             </a>
+            <span className="text-slate-600">|</span>
+            <div className="flex items-center gap-2 text-slate-300">
+              <Phone size={20} />
+              <span>+92 300 2884058</span>
+            </div>
             <span className="text-slate-600">|</span>
             <div className="flex items-center gap-2 text-slate-300">
               <MapPin size={20} />
